@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="0px"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:srcCompat="@drawable/ic_circle"
+        android:id="@+id/component_color_picker_circle_imageview" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/component_color_picker_circle_textview"
+        android:textAlignment="center"
+        android:paddingTop="6dp"/>
+</LinearLayout>

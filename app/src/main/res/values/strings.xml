@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Notification Maker</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_addactivity">New Notification</string>
+    <string name="title_activity_addactivity_edit_mode">Edit Notification</string>
+    <string name="action_credits">Credits</string>
+    <string name="edit_text_title">Title</string>
+    <string name="edit_text_subtitle">Subtitle</string>
+    <string name="add_activity_button">Create</string>
+    <string name="add_activity_button_edit_mode">Save</string>
+
+
+    <string name="color_picker_tag_id">color_picker_tag_id</string>
+    <string name="list_item_button_tag">list_item_button_tag</string>
+    <string name="action_delete_inactive">Delete all inactive notifications</string>
+    <string name="action_delete_active">Delete all active notifications</string>
+    <string name="notification_action_done">notification_action_done</string>
+    <string name="notification_action_delete">notification_action_delete</string>
+</resources>

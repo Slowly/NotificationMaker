@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wagner.valentin.notificationmaker2.MainActivity">
+    <item android:title="Clear"
+        android:showAsAction="always"
+        android:id="@+id/action_clear"
+        app:showAsAction="always"
+        android:enabled="true"
+        android:checkable="false"
+        android:visible="false" />
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" /> -->
+
+    <item
+        android:id="@+id/action_delete_active"
+        android:orderInCategory="100"
+        android:title="@string/action_delete_active"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_inactive"
+        android:orderInCategory="100"
+        android:title="@string/action_delete_inactive"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_credits"
+        android:orderInCategory="100"
+        android:title="@string/action_credits"
+        app:showAsAction="never" />
+</menu>
